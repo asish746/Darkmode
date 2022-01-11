@@ -1,0 +1,99 @@
+body{
+    background-color:white;
+    color:black
+}
+.kumar{
+    background-color:black;
+    color:white;
+}
+#dark{
+    width:28px;
+    height:28px;
+}
+.navbar{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#kumar{
+    background-color:red;
+    font-family: verdana;
+    
+}
+.navbar-brand{
+    font-size:25px;
+}
+a{
+    color:white !important;
+    font-size:20px;
+    font-family:verdana;
+}
+
+.carousel-caption{
+display:block;
+position:absolute;
+top:0;
+font-size:20px;
+
+}
+.slogo{
+    margin-top:5%;
+}
+.zlogo{
+    font-size:30px;
+    background-color:red;
+    padding:2%;
+    border-radius:50%;
+    font-family:sans-serif;
+    animation-name:asish;
+    animation-duration:12s;
+    animation-delay:1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    
+    
+}
+.food{
+    padding-top:3%;
+    padding-bottom:2%;
+    font-size:30px;
+}
+.location{
+    background-color:white;
+    color:gray;
+    padding:1% 2%;
+    border-radius:8px;
+    outline:none;
+}
+
+.searchfood{
+    padding:1% 2%;
+    width:40%;
+    border:none;
+    outline:none;
+    color:black;
+    border-radius:8px;
+}
+::placeholder{
+    text-align:center;
+}
+h3{
+    color:rgb(77, 77, 223);
+}
+#foot{
+    padding:3% 0;
+}
+@keyframes asish{
+    
+        0% {margin-left:0%}
+        25% {margin-left:-25%}
+        75% {margin-left:25%}
+        100% {margin-left:0%}
+        
+    }
+
+@media only screen and (max-width: 580px){
+    .food{
+        font-size:20px;
+    }
+    
+}
